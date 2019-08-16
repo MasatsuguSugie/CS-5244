@@ -1,0 +1,74 @@
+footer {
+    background: rgb(124, 124, 124);
+    color: #111111;
+    height: 80px;
+}
+
+#footerItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 13px;
+}
+
+#aboutUs{
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+}
+
+#contactUs{
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+}
+
+#directions{
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+}
+
+#socialMedia{
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+}
+
+#rightsReserved{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#aboutUs:hover {background-color: hotpink;}
+
+#directions:hover {background-color: hotpink;}
+
+#contactUs:hover {background-color: hotpink;}
+
+#socialMedia:hover {background-color: hotpink;}

@@ -1,0 +1,137 @@
+header {
+    height: 200px;
+    background: rgb(124, 124, 124);
+    color: #111111;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#leftHeader{
+    margin-top: 10px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+#midHeader{
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#rightHeader{
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+
+#logo{
+    flex-wrap: wrap;
+}
+
+#searchForm{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 45px;
+}
+
+#searchBox{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(157, 195, 230);
+}
+
+#searchIcon{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#cartIconAndCountAndLogin{
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: space-around;
+
+}
+
+#logoText{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#slogan{
+    font-size: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#dropdownLabel{
+    margin-top: 20px;
+    margin-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.dropbtn {
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    border-radius: 4px;
+    width: 200px;
+    border: 1px solid rgb(0, 51, 204);
+    text-align: center;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(173, 185, 202);
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#cartIcon{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#cartCount{
+    margin-right: 175px;
+}
+
+.dropdown-content a:hover {background-color: hotpink;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: hotpink;}
+
+#loginButton{
+    border-radius: 4px;
+    width: 60px;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+}
+
+#loginButton:hover {background-color: hotpink;}

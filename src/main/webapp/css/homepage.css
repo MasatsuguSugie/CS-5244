@@ -1,0 +1,285 @@
+#upperHome{
+    width: 100%;
+    display: flex;
+}
+
+#upperLeftHome{
+    margin: 20px;
+}
+
+#who{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#upperRightHome{
+    margin: 20px 20px 20px 100px;
+}
+
+#featuredAuthors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#featuredAuthorsTitle{
+    margin-left: 350px;
+    font-size: 30px
+}
+
+.featuredAuthorsItems{
+    margin: 20px;
+}
+
+#featuredTitlesTitle{
+    margin-left: 400px;
+    font-size: 30px
+}
+
+.featuredTitlesItems{
+    margin: 20px;
+}
+
+#featuredThemesTitle{
+    margin-left: 400px;
+    font-size: 30px
+}
+
+.featuredThemesItems{
+    margin: 20px;
+}
+
+#lowerHome{
+    width: 100%;
+    display: flex;
+}
+
+#lowerLeftHome{
+    margin: 20px;
+}
+
+#recommendationsTitle{
+    font-size: 30px
+}
+
+#needToSellTitle{
+    font-size: 30px
+}
+
+#recommendations{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#lowerRightHome{
+    margin: 20px;
+}
+
+#featuredTitles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#featuredThemes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#earnestCline{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+#richardMorgan{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+#jamesCorey{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+#cixinLiu{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+#readyPlayerOne{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+#alteredCarbon{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+#leviathanWakes{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+#wanderingEarth{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+#steampunk{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+#youngAdult{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 4px;
+}
+#cyberpunk{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+#postApocalypse{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.who{
+    font-size: 30px;
+}
+
+.featuredAuthorsCenter{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+.featuredTitlesCenter{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+.featuredThemesCenter{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+#earnestCline:hover {background-color: hotpink;}
+
+#richardMorgan:hover {background-color: hotpink;}
+
+#jamesCorey:hover {background-color: hotpink;}
+
+#cixinLiu:hover {background-color: hotpink;}
+
+#readyPlayerOne:hover {background-color: hotpink;}
+
+#alteredCarbon:hover {background-color: hotpink;}
+
+#leviathanWakes:hover {background-color: hotpink;}
+
+#wanderingEarth:hover {background-color: hotpink;}
+
+#steampunk:hover {background-color: hotpink;}
+
+#youngAdult:hover {background-color: hotpink;}
+
+#cyberpunk:hover {background-color: hotpink;}
+
+#postApocalypse:hover {background-color: hotpink;}

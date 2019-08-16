@@ -1,0 +1,35 @@
+body {
+    font: 1em normal Verdana, Tahoma, sans-serif;
+    color: #111111;
+    font-size: 20px;
+    margin: 20px;
+}
+
+main {
+    background: rgb(0, 153, 153);
+    /* stack header-section-footer on all pages */
+    display: flex;
+    flex-direction: column;
+}
+
+a,
+a:visited,
+input[type=submit] {
+    color: blue;
+}
+
+a:hover,
+a:active,
+input[type=submit]:hover,
+ul.buttons a:hover{
+    color: purple;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}

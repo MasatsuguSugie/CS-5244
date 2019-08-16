@@ -1,0 +1,103 @@
+#upperCategory{
+    width: 100%;
+    height: auto;
+}
+
+#lowerCategory{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#categoriesList{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.categoryDetails{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#booksItems{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bookDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.readMeNow{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+#selectedCategoryName{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin: 20px;
+}
+
+.unselectedCategoryName{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+    margin: 20px;
+}
+
+.addCartAndReadNow{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.addToCartButton{
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(173, 185, 202);
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 51, 204);
+    cursor: pointer;
+}
+
+#selectedCategoryName {background-color: hotpink;}
+
+.unselectedCategoryName:hover {background-color: hotpink;}
+
+.addToCartButton:hover {background-color: hotpink;}
+
+.readMeNow:hover {background-color: hotpink;}

@@ -1,0 +1,99 @@
+#confirm{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+#mainConfirm{
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 4px;
+    width: 700px;
+    padding: 4px 8px;
+    border: 5px darkblue;
+    background-color: aqua;
+}
+
+#confirmTitle{
+    margin: 20px;
+    font-size: 50px;
+}
+
+#title{
+    text-align: center;
+}
+
+#quantity{
+    text-align: center;
+    width: 60px;
+}
+
+#subtotal{
+    text-align: right;
+}
+
+.bookTitle{
+    width: 700px;
+}
+
+.price{
+    width: 100px;
+    text-align: right;
+}
+
+.button{
+    text-align: center;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+td, th{
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+    background-color: rgb(91, 155, 213);
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: rgb(234, 239, 247);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(210, 222, 236);
+}
+
+.quantity{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+#surcharge{
+    text-align: right;
+}
+
+#confirmText{
+    font-size: 25px;
+}
+
+#customerInfo{
+    font-size: 25px;
+    text-align: left;
+}
+
+#custBox{
+    margin-left: 175px;
+}
